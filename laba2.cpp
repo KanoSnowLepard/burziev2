@@ -106,7 +106,8 @@ int main() {
     multiply_naive(A, B, C, n);
     auto t1e = high_resolution_clock::now();
     print_stats("1-й вариант (Линейная алгебра)", duration<double>(t1e - t1s).count(), ops);
-
+    cout << "\nВсе расчеты завершены." << endl;
+    cout << "Автор: Бурзиев Иван Сергеевич, 090304-РПИа-о25" << endl << flush;
     system("pause");
     return 0;
 }
